@@ -8,6 +8,7 @@ function setTheme(light) {
   iconMoon.style.display = light ? ''     : 'none';
   iconSun.style.display  = light ? 'none' : '';
   localStorage.setItem('theme', light ? 'light' : 'dark');
+  document.querySelector('link[rel="icon"]').href = light ? 'faviconlight.ico' : 'favicondark.ico';
 }
 
 setTheme(localStorage.getItem('theme') === 'light');
