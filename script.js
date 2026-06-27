@@ -163,8 +163,8 @@ const COMMANDS = {
 
   projects: () => [
     'Projects:',
-    '<span class="t-muted">  nothing here yet - work in progress.</span>',
-    '<span class="t-muted">  check back soon.</span>',
+    '<span class="t-muted">  <a href="https://regconverter.lewisrae.dev/" target="_blank" rel="noopener" style="color:var(--accent-light)">RegConverter</a> — regexp → DFA converter (Haskell → WASM)</span>',
+    '<span class="t-muted">  <a href="https://mindmatter.lewisrae.dev/" target="_blank" rel="noopener" style="color:var(--accent-light)">MindMatter</a> &nbsp;&nbsp;&nbsp;— browser-based Anki deck quizzer</span>',
   ],
 
   contact: () => [
